@@ -46,6 +46,12 @@ body {
         hsl(241, 100%, 89%);
     font-family: 'Hanken Grotesk', sans-serif;
 }
+.grid-result p {
+    margin: 30px auto;
+    color:  hsl(241, 100%, 89%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
 
 .box1 {
     height: 125px;
@@ -85,7 +91,7 @@ body {
     left: 38px;
     /*30px;**/
     text-align: center;
-    width: 75%;
+    width: 82%;
 }
 
 .box2 h3 {
