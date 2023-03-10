@@ -85,11 +85,8 @@ body {
 
 .box2 {
     position: absolute;
-    top:
-        /*8240px;*/
-        253px;
+    top:  253px;
     left: 27px;
-    /*30px;**/
     text-align: center;
     width: 82%;
 }
