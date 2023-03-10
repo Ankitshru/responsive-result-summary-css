@@ -1,0 +1,338 @@
+body {
+    margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.grid-main {
+    height: 410px;
+    width: 600px;
+    /*550px*/
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid white;
+    border-radius: 22px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 100px auto;
+
+    -webkit-box-shadow: 8px 10px 36px -18px rgba(17, 37, 212, 0.54);
+    -moz-box-shadow: 8px 10px 36px -18px rgba(17, 37, 212, 0.54);
+    box-shadow: 8px 10px 36px -18px rgba(17, 37, 212, 0.54);
+}
+
+.grid-result {
+    height: 100%;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 10% 60% 30%;
+    position: relative;
+
+}
+
+.grid-result h3 {
+    margin: 30px auto;
+    color:
+        /*hsl(221, 100%, 96%)*/
+        hsl(241, 100%, 89%);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.box1 {
+    height: 125px;
+    width: 125px;
+    margin: 10px auto;
+    padding: 18px;
+    text-align: center;
+    border: 1px;
+    border-radius: 100%;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    position: absolute;
+    top: 70px;
+    left: 73px
+        /*60px;*/
+}
+
+.box1 p {
+    color: hsl(221, 100%, 96%);
+    opacity: 0.4;
+    line-height: 0;
+    position: relative;
+    bottom: 15px;
+}
+
+.marks {
+    font-size: 3.5rem;
+    color: hsl(0, 0%, 100%);
+    margin-top: 5px;
+    font-stretch: semi-condensed;
+}
+
+.box2 {
+    position: absolute;
+    top:
+        /*8240px;*/
+        253px;
+    left: 38px;
+    /*30px;**/
+    text-align: center;
+    width: 75%;
+}
+
+.box2 h3 {
+    color: white;
+    line-height: 0;
+    font-size: 30px;
+    font-weight: 200;
+
+}
+
+.box2 p {
+    color:
+        /*hsl(241, 100%, 89%);*/
+        hsl(221, 100%, 96%);
+    opacity: 0.8;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk' sans-serif;
+    font-weight: 400;
+}
+
+/*summary*/
+.grid-summary {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0px;
+}
+
+.grid-sub {
+    height: 219px;
+    width:
+        /*204px;*/
+        231px;
+    position: absolute;
+    top: 79px;
+    left: 31px;
+}
+
+.reaction {
+    width: 231px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsla(0, 100%, 67%, .1);
+    border-radius: 10px;
+}
+
+.grid-summary h3 {
+    position: relative;
+    top: 10px;
+    left: 41px;
+    width: 80px;
+    color: hsl(224, 30%, 27%);
+}
+
+.memory,
+.visual,
+.verbal {
+    width: 231px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+    border-radius: 10px;
+}
+
+.memory {
+    background-color: hsla(39, 100%, 56%, .1);
+    opacity: .8;
+}
+
+.visual {
+    background-color: hsla(234, 85%, 45%, .1);
+    opacity: .8;
+}
+
+.verbal {
+    background-color: hsla(166, 100%, 37%, .1);
+    opacity: .9;
+}
+
+.grid-sub .verbal h4 {
+    position: relative;
+    right: 36px;
+    top: 1px;
+}
+
+.grid-sub .visual h4 {
+    position: relative;
+    right: 36px;
+    top: 1px;
+}
+
+.memory h4 {
+    color: hsl(39, 100%, 56%);
+}
+
+.reaction h4 {
+    color: hsl(0, 100%, 67%);
+}
+
+.visual h4 {
+    color: hsl(234, 85%, 45%);
+}
+
+.verbal h4 {
+    color: hsl(166, 100%, 37%);
+    ;
+}
+
+.grid-sub h4 {
+    margin: 14px;
+    position: relative;
+    right: 30px;
+    top: 1px;
+}
+
+.grid-sub p {
+    display: inline-block;
+    position: relative;
+    right: 35px;
+    height: 15px;
+    color: hsla(224, 30%, 27%, .7);
+    font-weight: bold;
+}
+
+.grid-sub img {
+    height: 17px;
+    width: 17px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+.grid-sub span {
+    color: hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+
+button {
+    position: relative;
+    top: 277px;
+    left: 31px;
+    height: 46px;
+    width: 231px;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 20px;
+    border: none;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background-color: hsl(224, 50%, 27%);
+    cursor: pointer;
+}
+
+/*************Responsive code*****************/
+
+
+@media (max-width:375px) {
+    
+    .grid-main {
+
+        height: 801px;
+        width: 100%;
+        position: relative;
+        bottom: 100px;
+    }
+
+    .grid-result {
+        height: 45%;
+        width: 201%;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+
+    .box1 {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        left: 111px;
+    }
+
+    .box2 {
+        position: absolute;
+        top: 231px;
+        left: 36px;
+        text-align: center;
+        width: 80%;
+
+    }
+    .grid-result h3 {
+
+    }
+
+    .grid-summary {
+        position: relative;
+        top: 352px;
+        right: 196px;
+    }
+
+    .grid-sub {
+        height: 250px;
+        width: 360px;
+        position: absolute;
+        top: 73px;
+        left: 13px;
+    }
+
+    .reaction {
+        width: 286px;
+        height: 51px;
+        position: relative;
+        left: 38px;
+    }
+
+    .memory,
+    .verbal,
+    .visual {
+        width: 286px;
+        height: 51px;
+        position: relative;
+        left: 38px;
+    }
+
+    .grid-summary h3 {
+        position: relative;
+        top: 10px;
+        left: 51px;
+    }
+
+    button {
+        position: relative;
+        top: 277px;
+        left: 51px;
+        height: 46px;
+        width: 285px;
+    }
+
+    .attribution {
+        display: none;
+    }
+
+}
