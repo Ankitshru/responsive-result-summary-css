@@ -254,7 +254,7 @@ button:hover {
     .grid-main {
 
         height: 801px;
-        width: 100%;
+        width: 375px;
         position: relative;
         bottom: 100px;
     }
