@@ -1,6 +1,6 @@
 //const parents = document.querySelectorAll(".icon");
 const icons = document.querySelectorAll('.icon')
-const path = './data.json';
+const path = '/data.json';
 
 fetch(path)
 .then((response) => response.json())
