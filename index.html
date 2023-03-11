@@ -5,18 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="index.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
   <title>Frontend Mentor | Results summary component</title>
 </head>
 
 <body>
   <main class="grid-main">
-    <div class="grid-result">
-      <p id='Y'> Your Result<p>
+    <section class="grid-result">
+      <p> Your Result</p>
       <div class="box1">
         <h1><span class="marks">76</span></h1>
         <p> of 100</p>
@@ -25,41 +23,40 @@
         <h3>Great</h3>
         <p>You scored higher than 65% of the people who have taken these tests.</p>
       </div>
-    </div>
-
-    <div class="grid-summary">
+    </section>
+    <section class="grid-summary">
       <h3>Summary</h3>
-      <div class="grid-sub">
-        <div class="reaction">
-          <img src="/images/icon-reaction.svg" alt="Reaction-svg" srcset="">
+      <ol class="grid-sub">
+        <li class="reaction">
+          <img src="assets\images\icon-reaction.svg" alt="Reaction-svg-image" srcset="">
           <h4>Reaction</h4>
           <p><span>80</span> / 100</p>
-        </div>
-        <div class="memory">
-          <img src="/images/icon-memory.svg" alt="memory-svg" srcset="">
+        </li>
+        <li class="memory">
+          <img src="assets\images\icon-memory.svg" alt="Memory-svg" srcset="">
           <h4>Memory</h4>
           <p><span>92</span> / 100</p>
-        </div>
-        <div class="verbal">
-          <img src="/images/icon-verbal.svg" alt="verbal-svg" srcset="">
+        </li>
+        <li class="verbal">
+          <img src="assets\images\icon-verbal.svg" alt="verbal-svg" srcset="">
           <h4>Verbal</h4>
           <p><span>61</span> / 100</p>
-        </div>
-        <div class="visual">
-          <img src="/images/icon-visual.svg" alt="visual-svg" srcset="">
+        </li>
+        <li class="visual">
+          <img src="assets\images\icon-visual.svg" alt="visual-svg" srcset="">
           <h4>Visual</h4>
           <p><span>72</span> / 100</p>
-        </div>
-      </div>
-      <button type="submit"><a href="#">Continue</a></button>
-    </div>
+        </li>
+      </ol>
+      <button type="submit">Continue</button>
+    </section>
   </main>
 
   <footer>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://github.com/Ankitshru" target="_blank">Ankit Shrungare</a>.
-  </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/Ankitshru" target="_blank">Ankit Shrungare</a>.
+    </div>
   </footer>
 </body>
 
